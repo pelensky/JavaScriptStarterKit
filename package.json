@@ -2,10 +2,11 @@
   "name": "javascriptstarterkit",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
+  "private": true,
   "scripts": {
     "lint": "eslint src/*.js",
-    "test": "jest"
+    "test": "jest",
+    "watch": "node_modules/.bin/webpack --watch"
   },
   "repository": {
     "type": "git",
@@ -25,7 +26,12 @@
     "eslint": "^5.10.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.14.0",
-    "jest": "^23.6.0"
+    "eslint-plugin-jest": "^22.1.2",
+    "jest": "^23.6.0",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
 }
