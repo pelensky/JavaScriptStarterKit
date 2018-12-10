@@ -1,3 +1,11 @@
 module.exports = {
-    "extends": "airbnb-base"
+  "env": {
+    "jest/globals": true
+  },
+  "extends": "airbnb-base",
+  "globals": {
+    "window": true,
+    "document": true
+  },
+  "plugins": ["jest"]
 };
