@@ -10,12 +10,12 @@ This is set up so you can use ES6 syntax by default. (Look into [babel](https://
 Right now, just know that that means you can use pretty much anything that you find on StackOverflow!
 
 ## Testing
-You can run your tests with `npm run test`
+You can run your tests with `$ npm run test`
 The test runner is Jest. Documentation on syntax is available [here](https://jestjs.io/docs/en/expect).
 Per Jest standards, tests are in the `__tests__/` folder.
 
 ## Linting
-You can lint your code with `npm run lint`
+You can lint your code with `$ npm run lint`
 This uses AirBnB's defaults. Feel free to change this in the `.eslintrc.js` file
 
 ## Browser
