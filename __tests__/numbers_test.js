@@ -1,6 +1,9 @@
-import * as numbers from '../src/numbers';
+import { Numbers } from '../src/numbers';
 
 describe('numbers', () => {
+
+  const numbers = new Numbers();
+
   describe('addToNumber', () => {
     it('adds two numbers together', () => {
       expect(numbers.addToNumber(1, 2)).toEqual(3);

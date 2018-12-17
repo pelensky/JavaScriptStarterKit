@@ -1,5 +1,6 @@
-import * as numbers from './numbers';
+import { Numbers } from './numbers';
 
+const numbers = new Numbers();
 const radix = 10;
 let listOfNumbers = [];
 
