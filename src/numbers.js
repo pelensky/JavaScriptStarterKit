@@ -1,4 +1,5 @@
-class Numbers {
+export class Numbers {
+  // Exporting is important, otherwise our tests or index filel won't have access to it
 
   addToNumber(startingNumber, numberToAdd) {
     return startingNumber + numberToAdd;
@@ -8,6 +9,3 @@ class Numbers {
     return numbers.map(number => this.addToNumber(number, 1));
   }
 }
-
-// This is how we can use these functions in other files
-module.exports = { Numbers };

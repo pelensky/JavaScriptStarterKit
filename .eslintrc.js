@@ -7,5 +7,9 @@ module.exports = {
     "window": true,
     "document": true
   },
-  "plugins": ["jest"]
+  "plugins": ["jest"],
+    "rules": {
+      "import/prefer-default-export": "off",
+      "class-methods-use-this": "off"
+    }
 };
