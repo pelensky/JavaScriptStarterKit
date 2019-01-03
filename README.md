@@ -28,6 +28,7 @@ The _actual_ JavaScript that the brower reads is automatically generated, and is
 
 
 ## To get up and running
+- Install the NPM packages with `$ npm install`
 - In a terminal window, get Webpack to watch your files for changes with `$ npm run watch`
 - In an other terminal window, open your app with `$ open dist/index.html` - this will open a browser
 - Each time you make a change, you'll need to refresh the browser window, but you don't need to do anything else in the terminall
